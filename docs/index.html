@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Subdomain Takeover Test</title>
+    <style>
+        body {
+            background-color: #f4f4f4;
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            text-align: center;
+            background-color: #282c34;
+            color: white;
+        }
+
+        .content {
+            max-width: 600px;
+            background-color: #3b3f47;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 8px 16px rgba(0,0,0,0.3);
+        }
+
+        h1 {
+            color: #e74c3c;
+            font-size: 2.5em;
+            margin-bottom: 0.5em;
+        }
+
+        p {
+            font-size: 1.2em;
+            line-height: 1.5em;
+        }
+
+        .alert {
+            background-color: #e74c3c;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+            display: inline-block;
+            margin-top: 20px;
+            font-size: 1.1em;
+        }
+
+        .alert:hover {
+            background-color: #c0392b;
+            cursor: pointer;
+        }
+
+        .id {
+            margin-top: 20px;
+            font-size: 1.3em;
+            color: #f39c12;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="content">
+            <h1>Subdomain Takeover!</h1>
+            <p>If you're seeing this page, it means the subdomain is vulnerable to a takeover. This is a demonstration of a security flaw where an unclaimed or misconfigured subdomain can be hijacked.</p>
+            <div class="alert">Vulnerability Confirmed</div>
+            <div class="id">Integrity ID: <strong>mannsec</strong></div>
+        </div>
+    </div>
+</body>
+</html>
